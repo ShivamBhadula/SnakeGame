@@ -1,0 +1,24 @@
+
+/* styling our body of the gmae*/
+body
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the canvas , where our main game is */
+canvas
+{
+    box-shadow: black 20px 10px 50px;
+}
+
+/* dimension of our game */
+#game
+{
+    width: 600px;
+    height: 600px;
+}
